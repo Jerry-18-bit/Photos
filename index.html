@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>实验材料图片</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        .image-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .image-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .gallery img {
+            width: 100%;
+            height: 220px;
+            object-fit: contain; /* 改为contain确保完整显示图片 */
+            border-radius: 6px;
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
+        .image-name {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #333;
+            font-size: 16px;
+            padding: 8px 0;
+            border-top: 1px solid #eee;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>实验材料图片</h1>
+    <div class="subtitle">共11种实验材料展示</div>
+    <div class="gallery">
+        <div class="image-card">
+            <img src="https://raw.githubusercontent.com/Jerry-18-bit/Photos/main/bag-style%20basin.png" alt="袋式盆">
+            <div class="image-name">袋式盆</div>
+        </div>
+        <div class="image-card">
+            <img src="https://raw.githubusercontent.com/Jerry-18-bit/Photos/main/apple%20peel.png" alt="苹果皮">
+            <div class="image-name">苹果皮</div>
+        </div>
+        <div class="image-card">
+            <img src="https://raw.githubusercontent.com/Jerry-18-bit/Photos/main/battery.png" alt="电池">
+            <div class="image-name">电池</div>
+        </div>
+        <div class="image-card">
+            <img src="https://raw.githubusercontent.com/Jerry-18-bit/Photos/main/black%20oil.png" alt="黑油">
+            <div class="image-name">黑油</div>
+        </div>
+        <div class="image-card">
+            <img src="https://raw.githubusercontent.com/Jerry-18-bit/Photos/main/brush.png" alt="刷子">
+            <div class="image-name">刷子</div>
+        </div>
+        <div class="image-card">
+            <img src="https://raw.githubusercontent.com/Jerry-18-bit/Photos/main/fabric%20pieces.png" alt="布料碎片">
+            <div class="image-name">布料碎片</div>
+        </div>
+        <div class="image-card">
+            <img src="https://raw.githubusercontent.com/Jerry-18-bit/Photos/main/gravel.jpg" alt="砾石">
+            <div class="image-name">砾石</div>
+        </div>
+        <div class="image-card">
+            <img src="https://raw.githubusercontent.com/Jerry-18-bit/Photos/main/magnet.png" alt="磁铁">
+            <div class="image-name">磁铁</div>
+        </div>
+        <div class="image-card">
+            <img src="https://raw.githubusercontent.com/Jerry-18-bit/Photos/main/net.png" alt="网">
+            <div class="image-name">网</div>
+        </div>
+        <div class="image-card">
+            <img src="https://raw.githubusercontent.com/Jerry-18-bit/Photos/main/plastic%20straw.png" alt="塑料吸管">
+            <div class="image-name">塑料吸管</div>
+        </div>
+        <div class="image-card">
+            <img src="https://raw.githubusercontent.com/Jerry-18-bit/Photos/main/tweezers.png" alt="镊子">
+            <div class="image-name">镊子</div>
+        </div>
+    </div>
+</body>
+</html>
