@@ -10,6 +10,23 @@
             padding: 20px;
             background-color: #f5f5f5;
         }
+        .navigation {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .nav-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .nav-button:hover {
+            background-color: #2980b9;
+        }
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -58,6 +75,11 @@
     </style>
 </head>
 <body>
+    <!-- 新增导航栏 -->
+    <div class="navigation">
+        <a href="worksheet.html" class="nav-button">Go to Worksheet</a>
+    </div>
+    
     <h1>Pictures of experimental materials</h1>
     <div class="subtitle">A total of 11 experimental materials</div>
     <div class="gallery">
@@ -107,7 +129,4 @@
         </div>
     </div>
 </body>
-
 </html>
-
-
